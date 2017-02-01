@@ -10,12 +10,16 @@ class Boot {
     LiftRules.addToPackages("net.scalapro.liftportal")
 
     // Build SiteMap
-    def sitemap(): SiteMap = SiteMap(
+    val entries = List(
       Menu.i("Home") / "index"
     )
 
     // Use HTML5 for rendering
     LiftRules.htmlProperties.default.set((r: Req) =>
       new Html5Properties(r.userAgent))
+
+    LiftRules.early.append(_.setCharacterEncoding("UTF-8"))
+
+    LiftRules.setSiteMap(SiteMap(entries: _*))
   }
 }
