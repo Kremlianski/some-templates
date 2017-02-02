@@ -1,5 +1,10 @@
+
 lift-slick/target/
 lift-slick/.idea/
 lift-slick/project/project/
 lift-slick/project/target/
+
+typescript-gulp-react-simple/node_modules/
+typescript-gulp-react-simple/.vscode/
+
 
