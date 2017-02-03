@@ -6,13 +6,19 @@
 liftweb + Slick
 
 1. clone the project
-2. sbt
-3. tomcat:start
+2. cd lift-slick
+3. sbt
+4. tomcat:start
 
 
 ### typescript-gulp-react-simple
 
 typescript + react + gulp
+
+1. clone the project
+2. cd typescript-gulp-react-simple
+3. npm install
+
 
 
 
