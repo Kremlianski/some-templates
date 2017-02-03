@@ -3,7 +3,7 @@
 
 
 ### lift-slick
-liftweb + Slick
+_liftweb + Slick_
 
 1. clone the project
 2. cd lift-slick
@@ -13,7 +13,7 @@ liftweb + Slick
 
 ### typescript-gulp-react-simple
 
-typescript + react + gulp
+_typescript + react + gulp_
 
 1. clone the project
 2. cd typescript-gulp-react-simple
